@@ -1,0 +1,44 @@
+body {
+    display: flex;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+}
+
+#stage {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 800px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.box {
+    height: 100;
+    width: 100;
+    border: 1px black solid;
+    margin: auto;
+    z-index: 4;
+}
+
+#curtain {
+    display: inline-block;
+    height: 400px;
+    width: 800px;
+    background-color: red;
+    z-index: 5;
+    text-align: center;
+}
+
+#options {
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    bottom: 30;
+    left: 30%;
+    background-color: red;
+    z-index: 10;
+}
